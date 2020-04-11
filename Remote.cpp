@@ -3,7 +3,6 @@
 #include "Remote.h"
 #include "DhtAirConditioner.h"
 
-int dhtFlag;
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 
